@@ -1,0 +1,150 @@
+body{ 
+    color: #f8f8fa;
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+.nav-item  {
+margin: 40px 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+padding: 3px 25px;
+font-weight: 500;
+}
+
+.nav-color a{
+color: white;
+}
+.home-color a{
+border-radius: 50px;
+border:solid 2px #009ad8;
+color: #009ad8;
+}
+
+.nav-color a{
+border-radius: 50px;
+border:solid 2px transparent;
+transition: all 0.5s;
+}
+.nav-color a:hover{
+color: #009ad8;
+border-color:#009ad8;
+}
+.header{
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 50%;
+    
+    }
+.parag{
+font-size: 10px;
+color: #b1b1b1;
+
+}
+.weather{
+font-weight: 600;
+}
+
+.find-location{
+padding-top: 70px;
+padding-bottom: 70px;
+position: relative;
+
+}
+body{
+background: #1e202b;
+}
+.find-location input[type="text"] {
+width: 100%;
+padding: 20px 50px 20px 20px;
+background: #1e202b;
+color: white;
+border-radius: 30px;
+outline: none;
+border: none;
+}
+.find-location button{
+border: none;
+color:white ;
+background-color: #009ad8;
+border-radius: 30px;
+position: absolute;
+top: 75px;
+right: 5px;
+bottom: 75px;
+padding: 0 40px;
+}
+.header-caption{
+background: rgba(0, 0, 0, 0.1);
+padding: 10px;
+font-weight: 400;
+}
+.weather-content1{
+background-color: #393a41;
+color: #bfc1c8;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+}
+.weather-content2{
+background-color: #262936;
+}
+.weather-content3{
+background-color: #393a41;
+border-top-right-radius:10px;
+border-bottom-right-radius: 10px;
+}
+.degree h2{
+font-size: 80px;
+}
+.custom {
+color: #009ad8;
+
+}
+.footer{
+background: #262936;
+}
+.subscribe{
+position: relative;
+}
+.subscribe input{
+padding:15px 20px 15px 15px;
+background: #1e202b;
+border-radius: 30px;
+outline: none;
+border: none;
+width: 100%;
+color: white;
+}
+.subscribe button{
+border: none;
+color:white ;
+background-color: #009ad8;
+top: 6px;
+right: 5px;
+bottom: 6px;
+padding: 10px 25px;
+border-radius: 30px;
+position: absolute;
+
+}
+.footer-icon
+{
+    font-size: 40px;
+}
+.icons{
+width:55px;
+height: 55px;
+border-radius: 50%;
+background-color: black;
+}
+.icons:hover{
+background-color:#1a7599;
+}
+.icons:hover a{
+color: white;
+}
+.end{
+color:#bfc1c8;
+font-size: 15px;
+}
